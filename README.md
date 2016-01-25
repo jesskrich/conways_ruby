@@ -1,6 +1,6 @@
 ## Conway's Game of Life in Ruby
 
-![Game Screenshot] (https://github.com/jesskrich/conways_ruby/blob/master/game_screenshot.png = 250x)
+[[ https://github.com/jesskrich/conways_ruby/blob/master/game_screenshot.png | height = 300px ]]
 
 ###About
 The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970.

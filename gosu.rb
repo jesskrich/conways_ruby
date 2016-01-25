@@ -2,16 +2,16 @@ require 'gosu'
 require_relative 'board'
 
 class GameWindow < Gosu::Window
-	def initialize(height = 1800, width = 900)
+	def initialize(height = 900, width = 900)
 		@height = height
     	@width = width
     	super height, width, false
-		self.caption = 'Jessies Game of Life!'
+		self.caption = 'Jessie\'s Game of Life'
 
 
-		@background = Gosu::Color.new(0xffdedede)
-		@alive = Gosu::Color.new(0xff121212)
-		@dead = Gosu::Color.new(0xffededed)
+		@background = Gosu::Color.new(0xff_ff00ff)
+		@alive = Gosu::Color.new(0xff_00ffff)
+		@dead = Gosu::Color.new(0xff_000000)
 
 		@rows = height/10
 		@cols = width/10
@@ -70,5 +70,5 @@ GameWindow.new.show
 
 
 
-window = MyWindow.new
-window.show
+# window = MyWindow.new
+# window.show

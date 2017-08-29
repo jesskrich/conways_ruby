@@ -18,7 +18,7 @@ The universe of the Game of Life is an infinite two-dimensional orthogonal grid 
 
 The initial pattern constitutes the seed of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed—births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick (in other words, each generation is a pure function of the preceding one). The rules continue to be applied repeatedly to create further generations.
 
-Source: [Wikipedia] (https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+Source: [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 
 ### Implementation
-For visualization purposes, I used [Gosu] (https://www.libgosu.org/), a 2D gaming gem available for Ruby and C++.
+For visualization purposes, I used [Gosu](https://www.libgosu.org/), a 2D gaming gem available for Ruby and C++.

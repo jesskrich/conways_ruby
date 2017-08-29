@@ -1,4 +1,4 @@
-require 'pry'
+
 require_relative 'cell'
 
 class Board
@@ -16,7 +16,7 @@ class Board
 			end
 		end
 	end
-	
+
 
 	def get_neighbors
 		board.each do |row|
@@ -30,14 +30,14 @@ class Board
 
 		def check_cell_status(neighbors, cell)
 			live_cells = []
-			neighbors.each do |coordinate| 
+			neighbors.each do |coordinate|
 				if @board[coordinate[0]][coordinate[1]].alive?
 					live_cells << @board[coordinate[0]][coordinate[1]]
 				end
 			end
 			change_status(live_cells.count, cell)
 		end
-	
+
 	def change_status(live_cells, cell)
 		if cell.alive? == true && live_cells > 3 || live_cells < 2
 		 		cell.alive_next = false
@@ -70,6 +70,3 @@ class Board
 	end
 
 end
-
-
-

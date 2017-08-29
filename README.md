@@ -1,13 +1,14 @@
-## Conway's Game of Life in Ruby
+![Screenshot](images/screenshot.png)
 
-![Game Screenshot] (https://github.com/jesskrich/conways_ruby/blob/master/game_screenshot.png)
+# Project
+Simple terminal implementation of Conway's Game of Life in Ruby.
 
-###About
+### About
 The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970.
 
 The "game" is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves or, for advanced players, by creating patterns with particular properties.
 
-###The Rules
+### The Rules
 The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead. Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
 
 1. Any live cell with fewer than two live neighbours dies, as if caused by under-population.
@@ -19,5 +20,5 @@ The initial pattern constitutes the seed of the system. The first generation is 
 
 Source: [Wikipedia] (https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 
-###Implementation
+### Implementation
 For visualization purposes, I used [Gosu] (https://www.libgosu.org/), a 2D gaming gem available for Ruby and C++.
